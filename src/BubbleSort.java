@@ -48,4 +48,7 @@ public class BubbleSort<T extends Comparable<T>> {
         return sortVerbose(array, (a, b) -> ((Comparable<T>) a).compareTo(b));
     }
 
+
+    
+
 }
